@@ -17,6 +17,7 @@ services:
       - DB_NAME=postgres
       - DB_USER=devuser
       - DB_PASSWORD=changeme
+      - DJANGO_SECRET_KEY=django-insecure-2idrp-o)rx@4*!#c6og6+&wuuv=lx8&d1+ft=_u2i%hawy8cvt
     depends_on:
       - db
 
